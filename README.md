@@ -28,3 +28,37 @@ keras == 2.8.0
 Installation Example:
 
 pip install tensorflow==2.8.0
+
+
+
+## Documentation:
+
+[Report](https://github.com/mofasa-20/dd-Techniques/blob/main/Report/MRP_Project_Report_Mohammed_Abdul_Faheem.pdf)
+
+## Other resources:
+
+[ALPAC- Automatic Language Processing Advisory Committee](https://en.wikipedia.org/wiki/ALPAC)
+
+[Recursive hetero-associative memories for translation](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.43.1968&rep=rep1&type=pdf)
+
+[Translation Engines](https://www.academia.edu/5965803/Translation_Engines_Techniques_for_Machine_Translation_Arturo_Trujillo_Springer_Verlag_Applied_Computing_Heidelberg_1999_ISBN_1_85233_057_0111)
+
+[JANUS: a speech-to-speech translation system using connectionist and symbolic processing Strategies](https://isl.anthropomatik.kit.edu/downloads/CP_1991_JANUS-_A_Speech-to-Speech_Translation_System_Using_Connectionist_and_Symbolic_Processing_Strategies(1).pdf)
+
+[Recurrent Continuous Translation Models](https://aclanthology.org/D13-1176/)
+
+[Sequence to Sequence Learning with Neural Networks](https://proceedings.neurips.cc/paper/2014/file/a14ac55a4f27472c5d894ec1c3c743d2-Paper.pdf)
+
+[Neural Machine Translation by Jointly Learning to Align and Translate](https://arxiv.org/abs/1409.0473#)
+
+[Neural Computation - Long Short-Term Memory - LSTM ](https://direct.mit.edu/neco/article-abstract/9/8/1735/6109/Long-Short-Term-Memory?redirectedFrom=fulltext)
+
+[Learning Phrase Representations using RNN Encoder-Decoder for Statistical Machine Translation](https://arxiv.org/abs/1406.1078)
+
+[Convolutional Sequence to Sequence Learning](https://arxiv.org/abs/1705.03122)
+
+
+## Remark:
+Path - Path is hardcoded in the coding so please change the path before you run the code.
+
+
