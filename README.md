@@ -28,6 +28,19 @@ keras == 2.8.0
 Installation Example:
 
 pip install tensorflow==2.8.0
+```
+
+## Features
+
+* State-of-the-art models implemented using Encoder-Decoder, and Attention mechanism.
+* Utilities to evaluate models performance and compare their accuracy using BLEU score and log loss
+* Building blocks to define custom models and quickly experiment
+
+## About Data
+
+* The dataset is taken from the given source [data](http://www.manythings.org/anki/).
+* It is a "Tab-delimited Bilingual Sentence Pairs" and present from one natural language to another natural language.
+* I have selected French to English sentence pair for machine translation.
 
 
 
@@ -36,8 +49,8 @@ pip install tensorflow==2.8.0
 [Report](https://github.com/mofasa-20/dd-Techniques/blob/main/Report/MRP_Project_Report_Mohammed_Abdul_Faheem.pdf)
 
 ## Other resources:
-
 [ALPAC- Automatic Language Processing Advisory Committee](https://en.wikipedia.org/wiki/ALPAC)
+
 
 [Recursive hetero-associative memories for translation](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.43.1968&rep=rep1&type=pdf)
 
