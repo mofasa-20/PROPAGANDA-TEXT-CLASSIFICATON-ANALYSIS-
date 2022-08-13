@@ -46,7 +46,7 @@ pip install tensorflow==2.8.0
 
 ## Documentation:
 
-[Report](https://github.com/mofasa-20/PROPAGANDA-TEXT-CLASSIFICATON-ANALYSIS-/upload/main/Report)
+[Report](https://github.com/mofasa-20/PROPAGANDA-TEXT-CLASSIFICATON-ANALYSIS-/blob/main/Report/Project%20Report%20for%20GitHub.pdf)
 
 ## References:
 [ALPAC- Automatic Language Processing Advisory Committee](https://en.wikipedia.org/wiki/ALPAC)
