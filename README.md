@@ -117,28 +117,30 @@ support for rumours. Proceedings of the 11th International Workshop on Semantic 
 
 [Japkowicz, N., & Shah, M. (2011). Evaluating learning algorithms: A classification perspective. New York, NY: Cambridge University Press.](https://books.google.ca/books?hl=en&lr=&id=VoWIIOKVzR4C&oi=fnd&pg=PR7&ots=5y80VGQzKF&sig=-jl5r6f6JA0_VfZICyPSXLfbR2o&redir_esc=y#v=onepage&q&f=false)
 
-
 [Translation Engines](https://www.academia.edu/5965803/Translation_Engines_Techniques_for_Machine_Translation_Arturo_Trujillo_Springer_Verlag_Applied_Computing_Heidelberg_1999_ISBN_1_85233_057_0111)
 
+[Potthast, M., Kiesel, J., Reinartz, K., Bevendorff, J., & Stein, B. (2018). A stylometric inquiry into hyperpartisan and fake news. Proceedings of the 56th annual meeting of the Association for Computational LinguisticsACL ’18231–240 Melbourne, Australia](https://aclanthology.org/P18-1022/)
 
+[Rashkin, H., Choi, E., Jang, J. Y., Volkova, S., & Choi, Y. (2017). Truth of varying shades: Analyzing language in fake news and political fact-checking. Proceedings of the 2017 Conference on Empirical Methods in Natural Language ProcessingEMNLP ’172931–2937 Copenhagen, Denmark](https://aclanthology.org/D17-1317/)
 
-Potthast, M., Kiesel, J., Reinartz, K., Bevendorff, J., & Stein, B. (2018). A stylometric inquiry into hyperpartisan and fake news. Proceedings of the 56th annual meeting of the
-Association for Computational LinguisticsACL ’18231–240 Melbourne, Australia
-Rashkin, H., Choi, E., Jang, J. Y., Volkova, S., & Choi, Y. (2017). Truth of varying shades: Analyzing language in fake news and political fact-checking. Proceedings of the
-2017 Conference on Empirical Methods in Natural Language ProcessingEMNLP ’172931–2937 Copenhagen, Denmark
-Shu, K., Sliva, A., Wang, S., Tang, J., & Liu, H. (2017). Fake news detection on social media: A data mining perspective. SIGKDD Explorations Newsletters, 19(1), 22–36.
-Sproule, J. M. (2001). Authorship and origins of the seven propaganda devices: A research note. Rhetoric & Public Affairs,, 4(1), 135–143.
-Stamatatos, E. (2009). A survey of modern authorship attribution methods. Journal of the American Society for Information Science and Technology, 60(3), 538–556.
-Thorne, J., & Vlachos, A. (2018). Automated fact checking: Task formulations, methods and future directions. Proceedings of the 27th International Conference on
-Computational LinguisticsCOLING ’183346–3359 Santa Fe, NM, USA
-Thorne, J., Vlachos, A., Christodoulopoulos, C., & Mittal, A. (2018). FEVER: A large-scale dataset for fact extraction and VERification. Proceedings of the 2018 conference of
-the North American chapter of the Association for Computational Linguistics: Human language technologiesNAACL-HLT ’18809–819 New Orleans, LA, USA
-Vosoughi, S., Roy, D., & Aral, S. (2018). The spread of true and false news online. Science, 359(6380), 1146–1151.
-Wilson, T., Wiebe, J., & Hoffmann, P. (2005). Recognizing contextual polarity in phrase-level sentiment analysis. Proceedings of the Conference on Human Language
-Technology and Empirical Methods in Natural Language ProcessingNAACL-HLT ’05347–354 Vancouver, Canada
-Yule, G. (1944). The statistical study of literary vocabulary. Cambridge University Press.
-Zubiaga, A., Liakata, M., Procter, R., Wong Sak Hoi, G., & Tolmie, P. (2016). Analysing how people orient to and spread rumours in social media by looking at
-conversational threads. PLoS ONE, 11(3), 1–29.
+[Shu, K., Sliva, A., Wang, S., Tang, J., & Liu, H. (2017). Fake news detection on social media: A data mining perspective. SIGKDD Explorations Newsletters, 19(1), 22–36.](https://dl.acm.org/doi/10.1145/3137597.3137600)
+
+[Sproule, J. M. (2001). Authorship and origins of the seven propaganda devices: A research note. Rhetoric & Public Affairs,, 4(1), 135–143.](https://muse.jhu.edu/article/29876)
+
+[Stamatatos, E. (2009). A survey of modern authorship attribution methods. Journal of the American Society for Information Science and Technology, 60(3), 538–556.](https://onlinelibrary.wiley.com/doi/10.1002/asi.21001)
+
+[Thorne, J., & Vlachos, A. (2018). Automated fact checking: Task formulations, methods and future directions. Proceedings of the 27th International Conference on
+Computational LinguisticsCOLING ’183346–3359 Santa Fe, NM, USA](https://arxiv.org/abs/1806.07687)
+
+[Thorne, J., Vlachos, A., Christodoulopoulos, C., & Mittal, A. (2018). FEVER: A large-scale dataset for fact extraction and VERification. Proceedings of the 2018 conference of the North American chapter of the Association for Computational Linguistics: Human language technologiesNAACL-HLT ’18809–819 New Orleans, LA, USA](https://aclanthology.org/N18-1074/)
+
+[Vosoughi, S., Roy, D., & Aral, S. (2018). The spread of true and false news online. Science, 359(6380), 1146–1151.](https://www.science.org/doi/10.1126/science.aap9559)
+
+[Wilson, T., Wiebe, J., & Hoffmann, P. (2005). Recognizing contextual polarity in phrase-level sentiment analysis. Proceedings of the Conference on Human Language
+Technology and Empirical Methods in Natural Language ProcessingNAACL-HLT ’05347–354 Vancouver, Canada](https://dl.acm.org/doi/10.3115/1220575.1220619)
+
+[Zubiaga, A., Liakata, M., Procter, R., Wong Sak Hoi, G., & Tolmie, P. (2016). Analysing how people orient to and spread rumours in social media by looking at
+conversational threads. PLoS ONE, 11(3), 1–29.](https://books.google.ca/books?hl=en&lr=&id=B9VkAwAAQBAJ&oi=fnd&pg=PR9&ots=v6YBL3jtI5&sig=-cmoSANnyRrwbL7loPNBnMPubjw&redir_esc=y#v=onepage&q&f=false)
 
 
 ## Remark:
