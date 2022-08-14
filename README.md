@@ -29,18 +29,117 @@ Installation Example:
 
 pip install tensorflow==2.8.0
 ```
+## Introduction
+* The landscape of news outlets is wide: from supposedly neutral to clearly biased.  When reading a news article, every reader should be aware that, at least to some extent, it inevitably reflects the bias of both the author and the news outlet where the article is published. However, it is difficult to identify exactly what the bias is. It could be that the author himself may not be conscious about his own bias. On the other hand, it could be that the article is part of the author’s agenda to persuade readers about something on a specific topic. The latter situation represents propaganda. According to the now classical work from the Institute for Propaganda Analysis [1], propaganda can be defined as follows:
+
+Definition 1: Propaganda is expression of opinion or action by individuals or groups deliberately designed to influence opinions or actions of other individuals or groups with reference to predetermined ends.
 
 ## Features
 
-* State-of-the-art models implemented using Encoder-Decoder, and Attention mechanism.
-* Utilities to evaluate models performance and compare their accuracy using BLEU score and log loss
-* Building blocks to define custom models and quickly experiment
+* The corpus contains 52k articles from 100+ news outlets. Each article is
+labeled as either “propagandistic” (positive class) or “non-propagandistic”
+(negative class). The labeling was done indirectly using a technique known as
+distant supervision, i.e. an article is considered propagandistic if it comes
+from a news outlet that has been labeled as propagandistic by human annotators.
 
 ## About Data
 
-* The dataset is taken from the given source [data](http://www.manythings.org/anki/).
-* It is a "Tab-delimited Bilingual Sentence Pairs" and present from one natural language to another natural language.
-* I have selected French to English sentence pair for machine translation.
+* The dataset is taken from the given source [data](https://zenodo.org/record/3271522#.YgK9ie5BzDI).
+We provide the corpus in three tsv files, including training, development, and
+testing partitions.
+
+The data is tab-separated. Each line represents one article, with the following
+information:
+
+1. article_text: the text of the article retrieved via newspaper3k package.
+2. event_location: the geographical location - collected from GDELT.
+3. average_tone: measures the impact of the event - collected from GDELT
+4. article_date: article's publish date - collected from GDELT.
+5. article_ID: GDELT ID , unique among the dataset's articles.
+6. article_URL: the direct URL for the published article in its source website.
+7. MBFC_factuality_label: factuality label for the source from MBFC
+8. article_URL
+9. MBFC_factuality_label   
+10. URL_to_MBFC_page        
+11. source_name     
+12. MBFC_notes_about_source
+13. MBFC_bias_label
+14. source_URL
+15. propaganda_label
+
+## Data Info:
+![Data Info](https://github.com/mofasa-20/PROPAGANDA-TEXT-CLASSIFICATON-ANALYSIS-/blob/main/Report/Data%20Info.JPG)
+
+## Optimal Column Selection.
+•	The above training dataset has total of 15 columns/features.
+
+•	The most important features out of 15 are the input text ("text"), headline ("URL.1"), and the output label (propaganda_label).
+
+•	We I am removing the rest columns and keeping the above mention one.
+
+## Target Label Analysis
+![t1](https://github.com/mofasa-20/PROPAGANDA-TEXT-CLASSIFICATON-ANALYSIS-/blob/main/Report/Target%20Label%20Analysis.JPG)
+![t2](https://github.com/mofasa-20/PROPAGANDA-TEXT-CLASSIFICATON-ANALYSIS-/blob/main/Report/Target%20Label%20Analysis2.JPG)
+![t3](https://github.com/mofasa-20/PROPAGANDA-TEXT-CLASSIFICATON-ANALYSIS-/blob/main/Report/Target%20Label%20Analysis3.JPG)
+![t4](https://github.com/mofasa-20/PROPAGANDA-TEXT-CLASSIFICATON-ANALYSIS-/blob/main/Report/Target%20Label%20Analysis4.JPG)
+
+Observations:
+
+"-1" represents no propaganda, and "1" represents yes propaganda.
+
+The class is highly imbalance as only 11.2% of text consists of propaganda yes.
+
+
+## n-gram Analysis
+![n1](https://github.com/mofasa-20/PROPAGANDA-TEXT-CLASSIFICATON-ANALYSIS-/blob/main/Report/ng1.JPG)
+![n2](https://github.com/mofasa-20/PROPAGANDA-TEXT-CLASSIFICATON-ANALYSIS-/blob/main/Report/ng2.JPG)
+
+## bi-gram Analysis
+![b1](https://github.com/mofasa-20/PROPAGANDA-TEXT-CLASSIFICATON-ANALYSIS-/blob/main/Report/bg1.JPG)
+![b2](https://github.com/mofasa-20/PROPAGANDA-TEXT-CLASSIFICATON-ANALYSIS-/blob/main/Report/bg2.JPG)
+
+## tri-gram Analysis
+![tr1](https://github.com/mofasa-20/PROPAGANDA-TEXT-CLASSIFICATON-ANALYSIS-/blob/main/Report/tg1.JPG)
+![tr2](https://github.com/mofasa-20/PROPAGANDA-TEXT-CLASSIFICATON-ANALYSIS-/blob/main/Report/tg2.JPG)
+
+## Word Cloud
+![wc1](https://github.com/mofasa-20/PROPAGANDA-TEXT-CLASSIFICATON-ANALYSIS-/blob/main/Report/wc1.JPG)
+![wc2](https://github.com/mofasa-20/PROPAGANDA-TEXT-CLASSIFICATON-ANALYSIS-/blob/main/Report/wc2.JPG)
+
+## Naive bayes classifier - count vectorizer
+![nbcv](https://github.com/mofasa-20/PROPAGANDA-TEXT-CLASSIFICATON-ANALYSIS-/blob/main/Report/nbcv.JPG)
+
+## Naive bayes classifier - tfidf vectorizer
+![nbcv](https://github.com/mofasa-20/PROPAGANDA-TEXT-CLASSIFICATON-ANALYSIS-/blob/main/Report/nbtv.JPG)
+
+## Logistic Regression - count vectorizer
+![lrcv](https://github.com/mofasa-20/PROPAGANDA-TEXT-CLASSIFICATON-ANALYSIS-/blob/main/Report/lrcv.JPG)
+
+## Logistic Regression - tfidf vectorizer
+![lrtv](https://github.com/mofasa-20/PROPAGANDA-TEXT-CLASSIFICATON-ANALYSIS-/blob/main/Report/lrtv.JPG)
+
+## Support Vector Machine - count vectorizer
+![svmcv](https://github.com/mofasa-20/PROPAGANDA-TEXT-CLASSIFICATON-ANALYSIS-/blob/main/Report/svmcv.JPG)
+
+
+## Support Vector Machine - tfidf vectorizer
+![svmtv](https://github.com/mofasa-20/PROPAGANDA-TEXT-CLASSIFICATON-ANALYSIS-/blob/main/Report/svm%20tdf.JPG)
+
+
+##  LSTM model Plots, Classification Report & Prediction
+![plot](https://github.com/mofasa-20/PROPAGANDA-TEXT-CLASSIFICATON-ANALYSIS-/blob/main/Report/lstm1.JPG)
+
+![cr](https://github.com/mofasa-20/PROPAGANDA-TEXT-CLASSIFICATON-ANALYSIS-/blob/main/Report/lstmcr.JPG)
+
+![pred](https://github.com/mofasa-20/PROPAGANDA-TEXT-CLASSIFICATON-ANALYSIS-/blob/main/Report/lstmcm.JPG)
+
+
+## Attention LSTM Model Plots, Classification Report & Prediction 
+![plot](https://github.com/mofasa-20/PROPAGANDA-TEXT-CLASSIFICATON-ANALYSIS-/blob/main/Report/alstm1.JPG)
+
+![cr](https://github.com/mofasa-20/PROPAGANDA-TEXT-CLASSIFICATON-ANALYSIS-/blob/main/Report/alstmcr.JPG)
+
+![pred](https://github.com/mofasa-20/PROPAGANDA-TEXT-CLASSIFICATON-ANALYSIS-/blob/main/Report/alstmcm.JPG)
 
 
 
