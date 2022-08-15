@@ -145,7 +145,7 @@ The class is highly imbalance as only 11.2% of text consists of propaganda yes.
 
 ## Documentation:
 
-[Report](https://github.com/mofasa-20/PROPAGANDA-TEXT-CLASSIFICATON-ANALYSIS-/blob/main/Report/Project%20Report%20for%20GitHub.pdf)
+[Report](https://github.com/mofasa-20/PROPAGANDA-TEXT-CLASSIFICATON-ANALYSIS-/blob/main/Report/Project%20Report_Faheem_Mohammed_Abdul.pdf)
 
 ## References:
 [ALPAC- Automatic Language Processing Advisory Committee](https://en.wikipedia.org/wiki/ALPAC)
